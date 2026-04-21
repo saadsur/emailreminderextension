@@ -25,3 +25,51 @@ PERMISSIONS EXPLAINED
 - Notifications: to show the morning reminder alert
 - Tabs: to open the full dashboard view when you click 'Full View'
 - Scripting: to inject the Save Reminder button on webmail pages
+
+PRIVACY POLICY — Email Reminder Checklist
+Last updated: April 2026
+
+1. OVERVIEW
+Email Reminder Checklist ('the Extension') is a Chrome browser extension that allows users to save email subject lines as reminders and view them on a new-tab dashboard. This privacy policy explains how the Extension handles data.
+
+2. DATA WE COLLECT
+The Extension stores the following data locally on your device using the browser's chrome.storage.local API:
+- Email subject lines that you explicitly choose to save by clicking 'Save Reminder'
+- The date shown on the email at the time of saving
+- The hostname of the webmail site (e.g., mail.google.com)
+- A done/pending status flag you set yourself
+
+The Extension does NOT collect:
+- Email body content
+- Your email address or any account credentials
+- Browsing history
+- Any data from pages where you have not clicked 'Save Reminder'
+- Any personally identifiable information beyond what you explicitly choose to save
+
+3. HOW DATA IS STORED
+All data is stored exclusively in chrome.storage.local on your own device. It is never transmitted to any external server, third party, or cloud service. The Extension has no backend, no database, and no analytics.
+
+4. DATA SHARING
+We do not sell, share, transfer, or disclose your data to any third party under any circumstances.
+
+5. PERMISSIONS
+The Extension requests the following browser permissions solely to deliver its core functionality:
+- storage: to save your reminders on your device
+- alarms: to schedule your 8 AM morning reminder
+- notifications: to display the morning alert
+- tabs: to open the full dashboard view
+- scripting + <all_urls>: to inject the Save Reminder button on any webmail page you visit
+
+6. THIRD-PARTY SERVICES
+The Extension does not use any third-party analytics, advertising, or tracking services.
+
+7. CHILDREN
+The Extension is not directed at children under 13 and does not knowingly collect data from children.
+
+8. CHANGES TO THIS POLICY
+If this policy is updated, the new version will be published at this URL and the 'last updated' date will be changed.
+
+9. CONTACT
+For questions about this privacy policy, contact: aisaad@hotmail.com
+
+Developer: saad
